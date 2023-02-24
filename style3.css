@@ -1,0 +1,72 @@
+body{
+    background-image: url('images/header-popular-design-ideas.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 76px;
+    object-fit: cover;
+}
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:whitesmoke;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:linear-gradient(white,brown);
+}
+#name{
+    font-size: 25pt;
+    margin-left: 300px;
+    margin-right: 600px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+.nav{
+    font-size: 18pt;
+}
+header a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 10px;
+} 
+form{
+    background-color: rgba(255, 255, 255, 0.911);
+    width: 700px;
+    height: 700px;
+    margin-left: 400px;
+    border-radius: 30px;
+    padding:50px;
+}
+p{
+    font-size: 25pt;
+    background-color: rgb(170, 48, 48);
+    color: white;
+    font-style: italic;
+    border-radius: 5px;
+    margin-top: 250px;
+    text-align: center;
+}
+label{
+    display: inline-block;
+    width:150px;
+    font-size: 15pt;
+    color: black;
+}

@@ -1,0 +1,148 @@
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:whitesmoke;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:linear-gradient(white,brown);
+}
+
+header a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 10px;
+} 
+#name{
+    font-size: 25pt;
+    margin-left: 300px;
+    margin-right: 600px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+.sales{
+    color: white;
+    background-color: red;
+}
+.nav{
+    font-size: 18pt;
+}
+#introimg{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+#section2{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+#parag1{
+    font-size: 40pt;
+    text-align: center;
+    font-style: italic;
+}
+#parag2{
+    font-size: 15pt;
+    text-align: center;
+    
+}
+#button1{
+    width: auto;
+    color: white;
+    font-size: 15pt;
+    margin-left: 600px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+#section3{
+    margin-top: 30px;
+}
+.row{
+    margin: 0%;
+
+}
+#section3 ul li{
+    list-style-type: none;
+    font-size: 17pt;
+    margin-top: 30px;
+}
+#section3 ul li a {
+    text-decoration: none;
+    color: black;
+}
+.imglink{
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.pages{
+    margin-left: 40px;
+}
+#par3{
+    font-size: 25pt;
+    font-style: italic;
+    margin-left: 150px;
+}
+#section4,#section5,#section6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.topsalles{
+    display: flex;
+    flex-direction: column;
+}
+.topsallesdescription{
+    font-size: 15pt;
+    padding-left: 30px;
+}
+.topsallesimgs{
+    height: 500px;
+    object-fit: cover;
+}
+#section7{
+    padding-left: 350px;
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: whitesmoke;
+    
+}
+#par4{
+    margin-left: 100px;
+    font-size: 20pt;
+}
+address{
+    font-size: 15pt;
+    color: white;
+    width: 500px;
+    margin-left: 80px;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    padding-top: 2px;
+
+}

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/edc030122lawrence-007-1644347069.jpg);
+    height: 100vh;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 15px;
+    padding: 50px;
+    margin-left: 480px;
+}
+.form p{
+    color: #fff;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #e91c15;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #e91c15;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #e91c15;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    margin-bottom: 20px;
+}
+.btnn:hover{
+    background: #fff;
+    color: #e91c15;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #fff;
+    padding-top:160px;
+    margin-left: 37px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #e91c15;
+}
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:whitesmoke;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:linear-gradient(white,brown);
+}
+#name{
+    font-size: 25pt;
+    margin-left: 300px;
+    margin-right: 600px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+.nav{
+    font-size: 18pt;
+}
+header a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 10px;
+} 
